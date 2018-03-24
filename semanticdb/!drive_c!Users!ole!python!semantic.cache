@@ -1,0 +1,26 @@
+;; Object python/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "python/"
+  :tables
+  (list
+    (semanticdb-table "zhihu_login.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("requests" include nil nil [47 62])
+            ("bs4" include nil nil [63 92])
+            ("time" include nil nil [93 104])
+            ("json" include nil nil [105 116])
+            ("os" include nil nil [117 126])
+            ("url" variable nil nil [127 156])
+            ("loginURL" variable nil nil [157 203])
+            ("headers" variable nil nil [204 391])
+            ("s" variable nil nil [491 513])
+            ("if" code nil nil [514 1655]))          
+      :file "zhihu_login.py"
+      :pointmax 1655
+      :fsize 1737
+      :lastmodtime '(22870 9977 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

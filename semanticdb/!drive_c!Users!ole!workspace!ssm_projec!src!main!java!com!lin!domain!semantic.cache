@@ -1,0 +1,82 @@
+;; Object domain/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "domain/"
+  :tables
+  (list
+    (semanticdb-table "User.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("com.lin.domain" package nil nil [1 24])
+            ("User" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("userId" variable
+                       (:typemodifiers ("private")
+                        :type "Integer")
+                        (reparse-symbol class_member_declaration) [113 136])
+                    ("userName" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [141 165])
+                    ("userPassword" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [170 198])
+                    ("userEmail" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [203 228])
+                    ("getUserId" function
+                       (:typemodifiers ("public")
+                        :type "Integer")
+                        (reparse-symbol class_member_declaration) [234 290])
+                    ("setUserId" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("userId" variable (:type "Integer") (reparse-symbol formal_parameters) [318 332]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [296 371])
+                    ("getUserName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [377 437])
+                    ("setUserName" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("userName" variable (:type "String") (reparse-symbol formal_parameters) [467 482]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [443 525])
+                    ("getUserPassword" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [531 599])
+                    ("setUserPassword" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("userPassword" variable (:type "String") (reparse-symbol formal_parameters) [633 652]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [605 703])
+                    ("getUserEmail" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [709 771])
+                    ("setUserEmail" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("userEmail" variable (:type "String") (reparse-symbol formal_parameters) [802 818]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [777 863])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [883 1052]))                  
+                :type "class")
+                nil [89 1054]))          
+      :file "User.java"
+      :pointmax 1055
+      :fsize 1111
+      :lastmodtime '(22793 39001 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!ssm_projec!src!main!java!com!lin!domain!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

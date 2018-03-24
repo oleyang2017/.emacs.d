@@ -1,0 +1,115 @@
+;; Object python/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "python/"
+  :tables
+  (list
+    (semanticdb-table "file_server.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("查看代码" code nil nil [1 5])
+            ("asyncore" include nil nil [689 704])
+            ("socket" include nil nil [705 718])
+            ("socket" include nil nil [719 743])
+            ("logging" include nil nil [744 758])
+            ("time" include nil nil [759 770])
+            ("sys" include nil nil [771 781])
+            ("struct" include nil nil [782 795])
+            ("os" include nil nil [796 805])
+            ("fcntl" include nil nil [806 818])
+            ("threading" include nil nil [819 835])
+            ("rrd_graph" include nil nil [837 868])
+            ("try" code nil nil [871 1105])
+            ("RequestHandler" type
+               (:superclasses ("asyncore.dispatcher")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [1216 1309])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1318 1346])
+                            ("asyncore" code nil (reparse-symbol indented_block_body) [1355 1398])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1407 1434]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1168 1172])
+                            ("sock" variable nil (reparse-symbol function_parameters) [1174 1178])
+                            ("map" variable nil (reparse-symbol function_parameters) [1180 1183])
+                            ("chunk_size" variable nil (reparse-symbol function_parameters) [1190 1200]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1155 1435])
+                    ("readable" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1457 1461]))                          )
+                        (reparse-symbol indented_block_body) [1444 1533])
+                    ("writable" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1559 1563]))                          )
+                        (reparse-symbol indented_block_body) [1546 1760])
+                    ("handle_write" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1790 1794]))                          )
+                        (reparse-symbol indented_block_body) [1773 2089])
+                    ("handle_read" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2118 2122]))                          )
+                        (reparse-symbol indented_block_body) [2102 5504]))                  
+                :type "class")
+                nil [1108 5504])
+            ("SyncServer" type
+               (:superclasses ("asyncore.dispatcher")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("asyncore" code nil (reparse-symbol indented_block_body) [5590 5624])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5633 5650])
+                            ("self" variable nil (reparse-symbol indented_block_body) [5659 5715])
+                            ("self" code nil (reparse-symbol indented_block_body) [5724 5777])
+                            ("self" code nil (reparse-symbol indented_block_body) [5786 5807])
+                            ("self" code nil (reparse-symbol indented_block_body) [5816 5838])
+                            ("self" code nil (reparse-symbol indented_block_body) [5847 5864]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5566 5570])
+                            ("host" variable nil (reparse-symbol function_parameters) [5571 5575])
+                            ("port" variable nil (reparse-symbol function_parameters) [5576 5580]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [5553 5866])
+                    ("handle_accept" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5897 5901]))                          )
+                        (reparse-symbol indented_block_body) [5879 6169]))                  
+                :type "class")
+                nil [5510 6169])
+            ("RunServer" type
+               (:superclasses ("threading.Thread")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [6236 6268])
+                            ("self" variable nil (reparse-symbol indented_block_body) [6277 6296]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6222 6226]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [6209 6298])
+                    ("run" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [6315 6319]))                          )
+                        (reparse-symbol indented_block_body) [6307 6396]))                  
+                :type "class")
+                nil [6170 6396])
+            ("StartServer" function nil nil [6399 6569])
+            ("if" code nil nil [6595 6640]))          
+      :file "file_server.py"
+      :pointmax 6640
+      :fsize 6499
+      :lastmodtime '(22882 62213 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_e!BaiduNetdiskDownload!doc!python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

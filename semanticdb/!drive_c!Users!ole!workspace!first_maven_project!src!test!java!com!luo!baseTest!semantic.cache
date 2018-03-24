@@ -1,0 +1,33 @@
+;; Object baseTest/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "baseTest/"
+  :tables
+  (list
+    (semanticdb-table "SpringTestCase.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("com.luo.baseTest" package nil nil [1 26])
+            ("org.junit.runner.RunWith" include nil nil [28 60])
+            ("org.slf4j.Logger" include nil nil [61 85])
+            ("org.slf4j.LoggerFactory" include nil nil [86 117])
+            ("org.springframework.test.context.ContextConfiguration" include nil nil [118 179])
+            ("org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests" include nil nil [182 262])
+            ("org.springframework.test.context.junit4.SpringJUnit4ClassRunner" include nil nil [265 336])
+            ("SpringTestCase" type
+               (:typemodifiers ("public")
+                :superclasses "AbstractJUnit4SpringContextTests"
+                :members 
+                  ( ("logger" variable
+                       (:typemodifiers ("protected")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [597 659]))                  
+                :type "class")
+                nil [522 661]))          
+      :file "SpringTestCase.java"
+      :pointmax 662
+      :fsize 719
+      :lastmodtime '(22802 31854 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!first_maven_project!src!test!java!com!luo!baseTest!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

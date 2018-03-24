@@ -1,0 +1,57 @@
+;; Object service/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "service/"
+  :tables
+  (list
+    (semanticdb-table "UserService.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("com.lin.service" package nil nil [1 25])
+            ("com.lin.domain.User" include nil nil [78 105])
+            ("UserService" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("selectUserById" function
+                       (:arguments 
+                          ( ("userId" variable (:type "Integer") (reparse-symbol formal_parameters) [239 253]))                          
+                        :type "User")
+                        (reparse-symbol interface_member_declaration) [219 255]))                  
+                :type "interface")
+                nil [185 257]))          
+      :file "UserService.java"
+      :pointmax 258
+      :fsize 286
+      :lastmodtime '(22801 11883 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "UserServiceImpl.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("com.lin.service" package nil nil [1 25])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil nil [27 89])
+            ("org.springframework.stereotype.Service" include nil nil [90 136])
+            ("com.lin.dao.UserDao" include nil nil [138 165])
+            ("com.lin.domain.User" include nil nil [166 193])
+            ("UserServiceImpl" type
+               (:typemodifiers ("public")
+                :interfaces ("UserService")
+                :members 
+                  ( ("userDao" variable
+                       (:typemodifiers ("private")
+                        :type "UserDao")
+                        (reparse-symbol class_member_declaration) [355 379])
+                    ("selectUserById" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("userId" variable (:type "Integer") (reparse-symbol formal_parameters) [412 426]))                          
+                        :type "User")
+                        (reparse-symbol class_member_declaration) [385 482]))                  
+                :type "class")
+                nil [282 484]))          
+      :file "UserServiceImpl.java"
+      :pointmax 485
+      :fsize 523
+      :lastmodtime '(22793 50166 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!ssm_projec!src!main!java!com!lin!service!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

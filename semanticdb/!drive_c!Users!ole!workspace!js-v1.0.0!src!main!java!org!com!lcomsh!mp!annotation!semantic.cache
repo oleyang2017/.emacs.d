@@ -1,0 +1,23 @@
+;; Object annotation/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "annotation/"
+  :tables
+  (list
+    (semanticdb-table "Log.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("org.com.lcomsh.mp.annotation" package nil nil [175 212])
+            ("java.lang.annotation.Documented" include nil nil [214 254])
+            ("java.lang.annotation.ElementType" include nil nil [255 296])
+            ("java.lang.annotation.Retention" include nil nil [297 336])
+            ("java.lang.annotation.RetentionPolicy" include nil nil [337 382])
+            ("java.lang.annotation.Target" include nil nil [383 419])
+            ("org.springframework.web.bind.annotation.Mapping" include nil nil [421 477]))          
+      :file "Log.java"
+      :pointmax 624
+      :fsize 662
+      :lastmodtime '(22773 32030 0 0)
+      :unmatched-syntax '((BRACE_BLOCK 592 . 623) (IDENTIFIER 588 . 591) (IDENTIFIER 577 . 587) (IDENTIFIER 561 . 569) (PAREN_BLOCK 538 . 560) (IDENTIFIER 530 . 537) (IDENTIFIER 518 . 529) (PAREN_BLOCK 490 . 517) (IDENTIFIER 479 . 489))))
+  :file "!drive_c!Users!ole!workspace!js-v1.0.0!src!main!java!org!com!lcomsh!mp!annotation!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

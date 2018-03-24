@@ -1,0 +1,35 @@
+;; Object python/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "python/"
+  :tables
+  (list
+    (semanticdb-table "ifStatement.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("fib" function
+               (:documentation "Print a Fibonacci series up to n"
+                :arguments 
+                  ( ("n" variable nil (reparse-symbol function_parameters) [11 12])
+                    ("l" variable nil (reparse-symbol function_parameters) [14 15]))                  )
+                nil [3 148]))          
+      :file "ifStatement.py"
+      :pointmax 153
+      :fsize 161
+      :lastmodtime '(22888 42368 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "fb.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("fib" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [39 40]))              ) nil [31 126])
+            ("fib2" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [136 137]))              ) nil [127 162])
+            ("if" code nil nil [171 239]))          
+      :file "fb.py"
+      :pointmax 239
+      :fsize 254
+      :lastmodtime '(22893 31332 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_e!python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

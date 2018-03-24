@@ -1,0 +1,48 @@
+;; Object myweb/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "myweb/"
+  :tables
+  (list
+    (semanticdb-table "IndexAction.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("com.myweb" package nil nil [1 19])
+            ("org.springframework.web.servlet.ModelAndView" include nil nil [21 73])
+            ("org.springframework.web.servlet.mvc.Controller" include nil nil [74 128])
+            ("javax.servlet.http.HttpServletRequest" include nil nil [130 175])
+            ("javax.servlet.http.HttpServletResponse" include nil nil [176 222])
+            ("IndexAction" type
+               (:typemodifiers ("public")
+                :interfaces ("Controller")
+                :members 
+                  ( ("view" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [278 297])
+                    ("getView" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [303 354])
+                    ("setView" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("view" variable (:type "String") (reparse-symbol formal_parameters) [380 391]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [360 425])
+                    ("handlRequest" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("httpServletRequest" variable (:type "HttpServletRequest") (reparse-symbol formal_parameters) [478 515])
+                            ("httpServletResponse" variable (:type "HttpServletResponse") (reparse-symbol formal_parameters) [517 556]))                          
+                        :type "ModelAndView")
+                        (reparse-symbol class_member_declaration) [445 705]))                  
+                :type "class")
+                nil [224 707]))          
+      :file "IndexAction.java"
+      :pointmax 708
+      :fsize 738
+      :lastmodtime '(22776 40358 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!MyWeb!src!com!myweb!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

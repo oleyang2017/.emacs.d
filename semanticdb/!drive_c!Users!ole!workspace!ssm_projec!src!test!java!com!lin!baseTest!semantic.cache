@@ -1,0 +1,33 @@
+;; Object baseTest/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "baseTest/"
+  :tables
+  (list
+    (semanticdb-table "SpringTestCase.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("com.lin.baseTest" package nil nil [1 26])
+            ("org.junit.runner.RunWith" include nil nil [28 60])
+            ("org.slf4j.Logger" include nil nil [61 85])
+            ("org.slf4j.LoggerFactory" include nil nil [86 117])
+            ("org.springframework.test.context.ContextConfiguration" include nil nil [118 179])
+            ("org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests" include nil nil [180 260])
+            ("org.springframework.test.context.junit4.SpringJUnit4ClassRunner" include nil nil [261 332])
+            ("SpringTestCase" type
+               (:typemodifiers ("public" "abstract")
+                :superclasses "AbstractJUnit4SpringContextTests"
+                :members 
+                  ( ("logger" variable
+                       (:typemodifiers ("protected")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [655 717]))                  
+                :type "class")
+                nil [572 719]))          
+      :file "SpringTestCase.java"
+      :pointmax 720
+      :fsize 799
+      :lastmodtime '(22796 4573 0 0)
+      :unmatched-syntax '((PAREN_BLOCK 540 . 571) (IDENTIFIER 532 . 540) (PAREN_BLOCK 435 . 480) (IDENTIFIER 414 . 435) (IMPORT 28 . 34) ($EOI 34 . 34))))
+  :file "!drive_c!Users!ole!workspace!ssm_projec!src!test!java!com!lin!baseTest!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

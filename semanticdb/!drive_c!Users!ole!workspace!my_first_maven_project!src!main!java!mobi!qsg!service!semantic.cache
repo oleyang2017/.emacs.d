@@ -1,0 +1,57 @@
+;; Object service/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "service/"
+  :tables
+  (list
+    (semanticdb-table "UserService.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("mobi.qsg.service" package nil nil [1 26])
+            ("mobi.qsg.domain.User" include nil nil [28 56])
+            ("UserService" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("selectUserById" function
+                       (:arguments 
+                          ( ("userId" variable (:type "Integer") (reparse-symbol formal_parameters) [149 163]))                          
+                        :type "User")
+                        (reparse-symbol interface_member_declaration) [129 165]))                  
+                :type "interface")
+                nil [94 167]))          
+      :file "UserService.java"
+      :pointmax 168
+      :fsize 195
+      :lastmodtime '(22805 24801 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "UserServiceImplement.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("mobi.qsg.service" package nil nil [1 26])
+            ("javax.annotation.Resource" include nil nil [28 61])
+            ("org.springframework.stereotype.Service" include nil nil [94 140])
+            ("mobi.qsg.dao.UserDao" include nil nil [156 184])
+            ("mobi.qsg.domain.User" include nil nil [185 213])
+            ("UserServiceImplement" type
+               (:typemodifiers ("public")
+                :interfaces ("UserService")
+                :members 
+                  ( ("userDao" variable
+                       (:typemodifiers ("private")
+                        :type "UserDao")
+                        (reparse-symbol class_member_declaration) [387 411])
+                    ("selectUserById" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("userId" variable (:type "Integer") (reparse-symbol formal_parameters) [444 458]))                          
+                        :type "User")
+                        (reparse-symbol class_member_declaration) [417 514]))                  
+                :type "class")
+                nil [310 516]))          
+      :file "UserServiceImplement.java"
+      :pointmax 517
+      :fsize 575
+      :lastmodtime '(22818 36690 0 0)
+      :unmatched-syntax '((IDENTIFIER 301 . 309))))
+  :file "!drive_c!Users!ole!workspace!my_first_maven_project!src!main!java!mobi!qsg!service!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

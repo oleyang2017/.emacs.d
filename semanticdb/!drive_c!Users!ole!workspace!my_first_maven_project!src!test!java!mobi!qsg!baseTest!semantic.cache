@@ -1,0 +1,34 @@
+;; Object baseTest/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "baseTest/"
+  :tables
+  (list
+    (semanticdb-table "SpringTestCase.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("mobi.qsg.baseTest" package nil nil [1 27])
+            ("org.junit.runner.RunWith" include nil nil [29 61])
+            ("org.slf4j.Logger" include nil nil [63 87])
+            ("org.slf4j.LoggerFactory" include nil nil [88 119])
+            ("org.springframework.test.context.ContextConfiguration" include nil nil [121 182])
+            ("org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests" include nil nil [183 263])
+            ("org.springframework.test.context.junit4.SpringJUnit4ClassRunner" include nil nil [264 335])
+            ("org.junit.runner.RunWith" include nil nil [337 369])
+            ("SpringTestCase" type
+               (:typemodifiers ("public" "abstract")
+                :superclasses "AbstractJUnit4SpringContextTests"
+                :members 
+                  ( ("logger" variable
+                       (:typemodifiers ("protected")
+                        :type "Logger")
+                        (reparse-symbol class_member_declaration) [653 715]))                  
+                :type "class")
+                nil [569 717]))          
+      :file "SpringTestCase.java"
+      :pointmax 718
+      :fsize 793
+      :lastmodtime '(22822 48603 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!my_first_maven_project!src!test!java!mobi!qsg!baseTest!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

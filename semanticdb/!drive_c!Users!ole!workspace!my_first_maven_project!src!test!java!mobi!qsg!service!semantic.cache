@@ -1,0 +1,37 @@
+;; Object service/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "service/"
+  :tables
+  (list
+    (semanticdb-table "UserServiceTest.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("mobi.qsg.service" package nil nil [1 26])
+            ("javax.annotation.Resource" include nil nil [28 61])
+            ("org.apache.log4j.Logger" include nil nil [63 94])
+            ("org.junit.Test" include nil nil [95 117])
+            ("mobi.qsg.baseTest.SpringTestCase" include nil nil [119 159])
+            ("mobi.qsg.domain.User" include nil nil [160 188])
+            ("UserServiceTest" type
+               (:typemodifiers ("public")
+                :superclasses "SpringTestCase"
+                :members 
+                  ( ("userService" variable
+                       (:typemodifiers ("private")
+                        :type "UserService")
+                        (reparse-symbol class_member_declaration) [321 353])
+                    ("logger" variable (:type "Logger") (reparse-symbol class_member_declaration) [358 414])
+                    ("selectUserByIdTest" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [430 559]))                  
+                :type "class")
+                nil [249 562]))          
+      :file "UserServiceTest.java"
+      :pointmax 563
+      :fsize 618
+      :lastmodtime '(22820 3776 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!my_first_maven_project!src!test!java!mobi!qsg!service!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

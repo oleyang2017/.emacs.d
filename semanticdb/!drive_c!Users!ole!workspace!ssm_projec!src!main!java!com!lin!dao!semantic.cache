@@ -1,0 +1,29 @@
+;; Object dao/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "dao/"
+  :tables
+  (list
+    (semanticdb-table "UserDao.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("com.lin.dao" package nil nil [1 21])
+            ("com.lin.domain.User" include nil nil [23 50])
+            ("UserDao" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("selectUserById" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("userId" variable (:type "Integer") (reparse-symbol formal_parameters) [283 297]))                          
+                        :type "User")
+                        (reparse-symbol interface_member_declaration) [256 299]))                  
+                :type "interface")
+                nil [122 301]))          
+      :file "UserDao.java"
+      :pointmax 302
+      :fsize 333
+      :lastmodtime '(22793 48560 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!ssm_projec!src!main!java!com!lin!dao!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,37 @@
+;; Object service/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "service/"
+  :tables
+  (list
+    (semanticdb-table "UserServiceTest.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("com.lin.service" package nil nil [5 29])
+            ("org.apache.log4j.Logger" include nil nil [35 66])
+            ("org.junit.Test" include nil nil [71 93])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil nil [98 160])
+            ("com.lin.baseTest.SpringTestCase" include nil nil [166 205])
+            ("com.lin.domain.User" include nil nil [210 237])
+            ("UserServiceTest" type
+               (:typemodifiers ("public")
+                :superclasses "SpringTestCase"
+                :members 
+                  ( ("userService" variable
+                       (:typemodifiers ("private")
+                        :type "UserService")
+                        (reparse-symbol class_member_declaration) [427 459])
+                    ("logger" variable (:type "Logger") (reparse-symbol class_member_declaration) [468 524])
+                    ("selectUserByIdTest" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [548 688]))                  
+                :type "class")
+                nil [346 695]))          
+      :file "UserServiceTest.java"
+      :pointmax 696
+      :fsize 754
+      :lastmodtime '(22801 14651 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!ssm_projec!src!test!java!com!lin!service!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

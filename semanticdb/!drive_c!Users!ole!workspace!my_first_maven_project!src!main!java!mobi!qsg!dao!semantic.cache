@@ -1,0 +1,29 @@
+;; Object dao/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "dao/"
+  :tables
+  (list
+    (semanticdb-table "UserDao.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("mobi.qsg.dao" package nil nil [1 22])
+            ("mobi.qsg.domain.User" include nil nil [24 52])
+            ("UserDao" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("selectUserById" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("userId" variable (:type "Integer") (reparse-symbol formal_parameters) [284 298]))                          
+                        :type "User")
+                        (reparse-symbol interface_member_declaration) [257 300]))                  
+                :type "interface")
+                nil [125 302]))          
+      :file "UserDao.java"
+      :pointmax 304
+      :fsize 350
+      :lastmodtime '(22818 36255 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ole!workspace!my_first_maven_project!src!main!java!mobi!qsg!dao!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
