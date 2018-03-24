@@ -111,6 +111,9 @@
 (global-set-key (kbd "C-c C-f") 'toggle-frame-fullscreen) ; 全屏
 (global-set-key [(control tab)] 'kill-this-buffer) ; 关闭当前文件
 
+;; magit
+(global-set-key (kbd "C-x g") 'magit-status)
+
 ;; xml
 ;; 编辑xml时C-c C-f 自动完成关闭标签，例如</div>
 
